@@ -4,7 +4,7 @@
 # Base ------------------------------------------------------------------------
 gitpython>=3.1.30
 matplotlib>=3.3
-numpy>=1.22.2
+numpy==1.22
 opencv-python>=4.1.1
 Pillow>=7.1.2
 psutil  # system resources
@@ -16,6 +16,7 @@ torch>=1.8.0  # see https://pytorch.org/get-started/locally (recommended)
 torchvision>=0.9.0
 tqdm>=4.64.0
 ultralytics>=8.0.147
+jedi>=0.16
 # protobuf<=3.20.1  # https://github.com/ultralytics/yolov5/issues/8012
 
 # Logging ---------------------------------------------------------------------
@@ -24,7 +25,7 @@ ultralytics>=8.0.147
 # comet
 
 # Plotting --------------------------------------------------------------------
-pandas>=1.1.4
+pandas==1.5.3
 seaborn>=0.11.0
 
 # Export ----------------------------------------------------------------------
